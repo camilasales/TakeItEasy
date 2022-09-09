@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_off"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="358dp"
+        android:layout_height="676dp"
+        android:background="@drawable/border_layout"
+        android:orientation="vertical"
+        android:padding="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="@dimen/cardview_default_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <TextView
+            android:id="@+id/txt_title_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/darker_grotesque_medium"
+            android:letterSpacing="0.1"
+            android:text="Cadastro"
+            android:textAlignment="center"
+            android:textColor="@color/gray_main"
+            android:textSize="28dp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/input_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Nome completo"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/input_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/input_cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="CEP"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/input_logradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Logradouro"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/inpu_bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Bairro"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/green_main"
+            android:fontFamily="@font/darker_grotesque_medium"
+            android:letterSpacing="0.1"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:text="cadastrar"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="40dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
