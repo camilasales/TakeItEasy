@@ -38,7 +38,10 @@ class CadastroActivity : AppCompatActivity() {
 
                     response.body()?.let {
                         Log.i("CEP", it.toString())
+
                         Toast.makeText(this@CadastroActivity, it.toString(), Toast.LENGTH_LONG).show()
+                        logradouro.setText(it.logradouro.toString());
+                        bairro.setText(it.bairro.toString());
                         //--  progress_bar.visibility = View.INVISIBLE
                     } ?: Toast.makeText(this@CadastroActivity, "CEP não localizado", Toast.LENGTH_LONG)
                         .show()
