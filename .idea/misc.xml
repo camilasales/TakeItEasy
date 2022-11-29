@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1955" />
+        <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/drawable/border_layout.xml" value="0.1385" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/drawable/btn_desafios.xml" value="0.188" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/drawable/buton_action.xml" value="0.1955" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/drawable/button_action.xml" value="0.1955" />
@@ -14,8 +15,10 @@
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.10809906291834002" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.126171875" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/activity_cadastro.xml" value="0.2" />
-        <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/activity_inicial.xml" value="0.22" />
+        <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/activity_inicial.xml" value="0.33" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/activity_minha_saude.xml" value="0.33" />
+        <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/content_minhas_metas.xml" value="0.10052083333333334" />
         <entry key="..\:/Users/Camila Sales/Documents/Fiap/AndroidStudio/TakeItEasy/app/src/main/res/layout/content_scrolling.xml" value="0.16822916666666668" />
       </map>
     </option>
