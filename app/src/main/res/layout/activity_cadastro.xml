@@ -113,7 +113,8 @@
             android:text="cadastrar"
             android:textSize="20dp"
             android:textStyle="bold"
-            app:cornerRadius="40dp" />
+            app:cornerRadius="40dp"
+        />
 
     </LinearLayout>
 
