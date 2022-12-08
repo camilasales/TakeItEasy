@@ -1,25 +1,20 @@
 package br.com.fiap.takeiteasy
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
 class Inicial : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicial)
 
-        val btnDesafio1: Button = findViewById(R.id.btn_desafio1);
 
-        btnDesafio1.setOnClickListener(){
-            openActivityMinhaSaude()
-        }
 
     }
-
-    fun openActivityMinhaSaude(){
-        val intent = Intent(this, MinhaSaude::class.java);
-        startActivity(intent);
+    fun proximaTela(view: View) {
+        val intent = Intent(this, MinhaSaude::class.java)
+        startActivity(intent)
     }
 }

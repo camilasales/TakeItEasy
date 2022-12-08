@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openActivityInicial(){
-        val intent = Intent(this, Inicial::class.java);
+        val intent = Intent(this, MinhaSaude::class.java);
         startActivity(intent);
     }
 

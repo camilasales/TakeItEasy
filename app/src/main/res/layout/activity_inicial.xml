@@ -81,6 +81,7 @@
             android:layout_marginBottom="20sp"
             android:backgroundTint="@color/white"
             android:text="desafio 1"
+            android:onClick="proximaTela"
             android:textColor="@android:color/holo_green_dark" />
 
         <Button
